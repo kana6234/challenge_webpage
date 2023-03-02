@@ -29,30 +29,30 @@ header {
   font-size: 16px;
 }
 
-.main-visual {
+#main-visual {
   width: 100%;
   height: 650px;
   background-image: url(img/mv.png);
 }
 
-.portfolio {
+#portfolio {
   width: 100%;
   background-color: #eceff1;
   margin: 90px auto;
 }
 
-.feature {
+#feature {
   width: 100%;
   margin: 90px auto;
 }
 
-.profile {
+#profile {
   width: 100%;
   background-color: #eceff1;
   margin: 90px auto;
 }
 
-.contact {
+#contact {
   width: 100%;
   margin: 90px auto;
 }
