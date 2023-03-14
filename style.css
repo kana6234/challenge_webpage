@@ -158,6 +158,38 @@ header {
   font-size: 16px;
 }
 
+.profile-group {
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.left-content, .right-content {
+  width: 50%;
+}
+
+.my-face {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(img/my-icon.jpg);
+}
+
+.description-title {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.description-text {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.description-text:last-child {
+  margin-bottom: 0;
+}
+
 footer {
   width: 100%;
   height: 60px;
