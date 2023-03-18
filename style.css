@@ -190,6 +190,36 @@ header {
   margin-bottom: 0;
 }
 
+.contact-group{
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.left-contact-content {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.link-text{
+  text-decoration: underline;
+  color: #212121;
+}
+
+.right-contact-content {
+  width: 180px;
+  margin: 0 auto;
+}
+
+.right-contact-content .fa-brands {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.right-contact-content .fa-brands:last-child {
+  margin-right: 0;
+}
+
 footer {
   width: 100%;
   height: 60px;
