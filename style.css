@@ -302,4 +302,18 @@ footer {
   .production {
     margin-right: 0px;
   }
+
+  .strength-group {
+    width: 320px;
+    flex-flow: row wrap;
+  }
+
+  .strength {
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+
+  .strength:first-child {
+    margin-top: 0px;
+  }
 }
