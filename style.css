@@ -185,8 +185,12 @@ header {
 }
 
 .description-title {
-  margin-bottom: 5px;
+  margin: 20px 0 5px 0;
   font-size: 20px;
+}
+
+.description-title:first-child {
+  margin-top: 0;
 }
 
 .description-text {
@@ -327,5 +331,15 @@ footer {
 
   .profile-group .left-content {
     margin-bottom: 20px;
+  }
+
+  .contact-group {
+    flex-flow: row wrap;
+    width: 100%;
+    text-align: center;
+  }
+
+  .right-contact-content {
+    margin-top: 20px;
   }
 }
